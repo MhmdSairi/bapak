@@ -270,7 +270,7 @@ function App() {
             displayEmpty
             onChange={handlePkgid}>
             <MenuItem value="">
-            <em>Pilih Paket </em>
+            Pilih Paket
             
             </MenuItem>
           {pkgIds.map((pkg, i)=> <MenuItem key={i} value={pkg.pkgid}>{pkg.desc}</MenuItem>)}
